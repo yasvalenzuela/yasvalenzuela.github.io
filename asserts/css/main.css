@@ -1,0 +1,111 @@
+/*
+#primeraPantalla {
+  background-image: url(../img/apple-iphone-books-desk-large.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-top: -0.5%;
+  width: 100%;
+  height: 98.65vh;
+  position: relative;
+}
+
+.container {
+  padding-top: 10%;
+}
+
+#name {
+  font-size: 4em;
+  margin-top: 10%;
+}
+
+.specialitation {
+  font-size: 3em;
+  margin-top: -5%;
+}
+
+#specialitation {
+  margin-top: -5%;
+}
+*/
+
+header {
+  color: black;
+  font-size: 1em;
+  /*width: 100%;*/
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-flex;
+  margin: 0%;
+}
+
+a:first-child {
+  margin-right: 60%;
+  margin-left: 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#about {
+  margin-top: 14%;
+}
+
+#photo {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin-left: 25%;
+  margin-top: 4%;
+}
+
+/*section skill*/
+#skill {
+  text-align: center;
+}
+
+#skill h3 {
+  font-size: 2em;
+  margin-bottom: 5%;
+}
+
+#firstSkillRow {
+  margin-top: 25%;
+}
+
+#firstSkillRow img {
+  width: 45%;
+  height: 70%;
+}
+
+#secondSkillRow img {
+  width: 45%;
+  height: 60%;
+}
+
+/*section projects*/
+#projects {
+  text-align: center;
+  margin-top: 15%;
+}
+
+#firstProjectRow {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* section contact*/
+#contact {
+  margin-top: 15%;
+  text-align: center;
+}
+
+/*footer*/
+#footer {
+  text-align: center;
+}
