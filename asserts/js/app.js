@@ -9,10 +9,10 @@ $(document).ready(() => {
     $('#name').append(subtitle);
   let about = `
       <h2 class="aboutMe">ABOUT ME</h2>
-      <p class="description"><span>Hi, my name is Yasna Valenzuela, I'm 26 years old.
+      <p class="description">Hi, my name is Yasna Valenzuela, I'm 26 years old.
           <br>I am Front-end developer and engineer in risk prevention, quality and environment.
           <br>I love music, photography, art, soccer and code.
-          <br>I consider myself a responsible, dedicated, curious, creative person, capable of working as a team and under pressure.</span></p>
+          <br>I consider myself a responsible, dedicated, curious, creative person, capable of working as a team and under pressure.</p>
     `
     $('#about').append(about);
   let like = `
@@ -35,43 +35,44 @@ $(document).ready(() => {
     `
     $('#photoMe').append(photo);
   let skillOne = `
-    <div class="col-md-2 col-xs-2">
+    <div class="col-md-2 col-xs-3">
       <i class="devicon-html5-plain skillsLogo"></i>
     </div>
-    <div class="col-md-2 col-xs-2">
+    <div class="col-md-2 col-xs-3">
       <i class="devicon-css3-plain skillsLogo"></i>
     </div>
-    <div class="col-md-2 col-xs-2">
+    <div class="col-md-2 col-xs-3">
       <i class="devicon-javascript-plain skillsLogo"></i>
     </div>
-    <div class="col-md-2 col-xs-2">
+    <div class="col-md-2 col-xs-3">
       <i class="devicon-jquery-plain skillsLogo"></i>
-    </div>
-    <div class="col-md-2 col-xs-2">
-      <i class="devicon-nodejs-plain skillsLogo"></i>
     </div>
     `
     $('#skillOne').append(skillOne);
   let skillTwo = `
-    <div class="col-md-2 col-xs-2">
+    <div class="col-md-2 col-xs-3">
+      <i class="devicon-nodejs-plain skillsLogo"></i>
+    </div>
+    <div class="col-md-2 col-xs-3">
       <i class="devicon-sass-original skillsLogo"></i>
     </div>
-    <div class="col-md-2 col-xs-2">
+    <div class="col-md-2 col-xs-3">
       <i class="devicon-bootstrap-plain skillsLogo"></i>
     </div>
-    <div class="col-md-2 col-xs-2">
+    <div class="col-md-2 col-xs-3">
       <i class="devicon-photoshop-plain skillsLogo"></i>
     </div>
+    `
+    $('#skillTwo').append(skillTwo);
+  let skillThree = `
     <div class="col-md-2 col-xs-2">
       <i class="devicon-github-plain skillsLogo"></i>
     </div>
     <div class="col-md-2 col-xs-2">
       <i class="devicon-git-plain skillsLogo"></i>
-
     </div>
-    `
-    $('#skillTwo').append(skillTwo);
-          
+  `
+  $('#skillThree').append(skillThree);
 
 
 
@@ -142,6 +143,12 @@ $(document).ready(() => {
       triggerElement: '#skillTwo'
     })
     .setClassToggle('#skillTwo', 'fade-in')
+    .addTo(controller);
+
+    new ScrollMagic.Scene({
+      triggerElement: '#skillThree'
+    })
+    .setClassToggle('#skillThree', 'fade-in')
     .addTo(controller);
 
   new ScrollMagic.Scene({

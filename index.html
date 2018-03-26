@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <title>Yasna Valenzuela | Portfolio</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <!-- menú -->
+  <link rel="stylesheet" type="text/css" href="asserts/css/menu.css" />
+  <script src="asserts/js/modernizr-2.6.2.min.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-7243260-2']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
   <link rel="stylesheet" href="asserts/css/normalize.css">
   <link rel="stylesheet" href="asserts/css/main.css">
   <link rel="stylesheet" href="asserts/css/menu.css">
@@ -26,6 +40,8 @@
         </svg>
         <div class="container-fluid">
           <div class="row">
+          
+          <!--
             <div class="menu menu--circle">
               <input type="checkbox" id="menu__active"/>
               <label for="menu__active" class="menu__active">
@@ -123,6 +139,7 @@
               </label>
             </div>
           </div>
+            -->
           <div class="row">
             <div class="col-md-12" id="name"></div>
           </div>
@@ -199,6 +216,7 @@
         </div>
       -->
       </div>
+      <div class="row" id="skillThree"></div>
     </div>
   </section>
   <section class="work" id="works">
@@ -290,14 +308,14 @@
         <br>together we can achieve great things</p>
       </div>
       <div class="row contactLogos">
-        <div class="col-md-2 col-xs-2 mail">
+        <div class="col-md-2 col-xs-3 mail">
           <a href="mailto:yasna.valenzuela91@gmail.com"><img src="asserts/img/mail.png" alt=""></a>
           
         </div>
-        <div class="col-md-2 col-xs-2 linkedin">
+        <div class="col-md-2 col-xs-3 linkedin">
           <a href="https://www.linkedin.com/in/yasnavalenzuela/" target="_blank"><img src="asserts/img/linkedin.png" alt=""></a>
         </div>
-        <div class="col-md-2 col-xs-2 github">
+        <div class="col-md-2 col-xs-3 github">
           <a href="https://github.com/yasvalenzuela" target="_blank"><img src="asserts/img/github.png" alt=""></a>
         </div>
       </div>
@@ -307,6 +325,25 @@
     <p>Developed by Yasna Valenzuela</p>
   </footer>
 
+  <!-- Menú -->
+  <div class="container">
+    <div class="component" style="z-index: 1000">
+    <!-- Start Nav Structure -->
+      <button class="cn-button" id="cn-button">+</button>
+      <div class="cn-wrapper" id="cn-wrapper">
+        <ul>
+          <li><a href="#home"><span class="fa fa-home"></span></a></li>
+          <li><a href="#profile"><span class="fas fa-user-circle"></span></a></li>
+          <li><a href="#skills"><span class="fa fa-graduation-cap"></span></a></li>
+          <li><a href="#works"><span class="fa fa-code"></span></a></li>
+          <li><a href="#contact"><span class="far fa-address-card"></span></a></li>
+        </ul>
+      </div>
+      <div id="cn-overlay" class="cn-overlay"></div>
+    <!-- End Nav Structure -->
+    </div>
+  </div><!-- /container -->
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- 
   <script>
@@ -314,6 +351,9 @@
   </script>
    -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- menu -->
+  <script src="asserts/js/polyfills.js"></script>
+  <script src="asserts/js/menu.js"></script>
   <script src="asserts/js/anime.min.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
