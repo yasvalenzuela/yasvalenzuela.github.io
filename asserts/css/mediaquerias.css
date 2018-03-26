@@ -1,0 +1,180 @@
+@media screen and (min-device-width: 320px) and (max-device-width: 374px){
+  section:first-child, .svg-animation,.scene{
+    height: 100vh;
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
+  }
+  /*
+  img {
+    width: 100%;
+  }
+  */
+  .menu--circle{
+    margin-top: -143%;
+    position: fixed;
+  }
+  .hamburger {
+    position: fixed;
+  }
+  .title{
+    margin-top: -100%;
+    transition:all 3s ease-out;
+    opacity: 0;
+    font-size: 10vw;
+  }
+  .title.fade-in {
+    margin-top: -100%;
+    opacity: 1;
+  }
+  .subtitle {
+    font-size: 6vw;
+  }
+  .aboutMe {
+    font-size: 5vw;
+  }
+  .description {
+    font-size: 3.8vw;
+  }
+  #photo {
+    width: 45%;
+  }
+  #photo.fade-in {
+    margin-left: 25%;
+    margin-top: -5%;
+  }
+  #skill {
+    margin-top: 35%;
+    font-size: 8vw;
+    margin-bottom: 10%;
+  }
+  #skillOne {
+    /*margin-top: 25%;*/
+  }
+  #skillOne,#skillTwo {
+    width: 100%;
+    margin-left: -10%;
+  }
+  .work {
+    height: auto;
+    margin-bottom: 45%;
+  }
+  .rowWork {
+    margin-top: 10%;
+  }
+  .thumbnail {
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+  .caption {
+    background-color: silver;
+  }
+  .caption h3 {
+    font-size: 4vw;
+  }
+  .caption button {
+    font-size: 3.5vw;
+    background-color: #FFA254;
+  }
+  .contactLogos {
+    margin-left: 35%;
+  }
+  .github,.mail,.linkedin {
+    width: 12em;
+  }
+  .infoContact {
+    font-size: 4.5vw;
+  }
+}/*termina primer media query*/
+
+@media screen and (min-device-width: 375px) and (max-device-width: 424px){
+  section:first-child, .svg-animation,.scene{
+    height: 100vh;
+    width: 100%;
+  }
+
+
+  /*
+  img {
+    width: 100%;
+  }
+  */
+  .menu--circle{
+    margin-top: -106%;
+    position: fixed;
+  }
+  .hamburger {
+    position: fixed;
+  }
+  .title{
+    margin-top: -100%;
+    transition:all 3s ease-out;
+    opacity: 0;
+    font-size: 9vw;
+  }
+  .title.fade-in {
+    margin-top: -70%;
+    opacity: 1;
+    text-align: center;
+  }
+  .subtitle {
+    font-size: 6vw;
+  }
+  .aboutMe {
+    font-size: 5vw;
+  }
+  .description {
+    font-size: 3.8vw;
+  }
+  #photo {
+    width: 45%;
+  }
+  #photo.fade-in {
+    margin-left: 25%;
+    margin-top: -5%;
+  }
+  #skill {
+    margin-top: 35%;
+    font-size: 8vw;
+    margin-bottom: 10%;
+  }
+  #skillOne {
+    /*margin-top: 25%;*/
+  }
+  #skillOne,#skillTwo {
+    width: 150%;
+    margin-left: -10%;
+  }
+  .work {
+    height: auto;
+    margin-bottom: 45%;
+  }
+  .rowWork {
+    margin-top: 10%;
+  }
+  .thumbnail {
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+  .caption {
+    background-color: silver;
+  }
+  .caption h3 {
+    font-size: 4vw;
+  }
+  .caption button {
+    font-size: 3.5vw;
+    background-color: #FFA254;
+  }
+  .contactLogos {
+    margin-left: 35%;
+  }
+  .github,.mail,.linkedin {
+    width: 12em;
+  }
+  .infoContact {
+    font-size: 4.5vw;
+  }
+}

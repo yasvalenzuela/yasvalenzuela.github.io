@@ -104,6 +104,13 @@ img{
   pointer-events: none;
   z-index: 100;
   margin-top: -550px;
+  transition:all 3s ease-out;
+  opacity: 0;
+}
+
+.title.fade-in {
+  opacity: 1;
+  margin-left: 3%;
 }
 
 /*especialitation*/
@@ -117,6 +124,13 @@ img{
   display: block;  
   z-index: 100;
   margin-top: 50px; 
+  transition:all 6s ease-out;
+  opacity: 0;
+}
+
+.subtitle.fade-in {
+  opacity: 1;
+  margin-left: 3%;
 }
 
 /* about me */
@@ -125,6 +139,79 @@ img{
   height: 80vh;
 }
 
+.aboutMe {
+  opacity: 0;
+  transition: all 3s ease-out;
+}
+
+.aboutMe.fade-in {
+  opacity: 1;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.description {
+  opacity: 0;
+  transition: all 3s ease-out;
+  font-size: 1.2em;
+}
+
+.description.fade-in {
+  opacity: 1;
+  margin-top: 3%;
+}
+
+#headphone {
+  opacity: 0;
+  transition: all 3s ease-out;
+}
+
+#headphone.fade-in {
+  opacity: 1;
+}
+
+#laptop {
+  opacity: 0;
+  transition: all 3s ease-out;
+}
+
+#laptop.fade-in {
+  opacity: 1;
+}
+
+#camera {
+  opacity: 0;
+  transition: all 3s ease-out;
+}
+
+#camera.fade-in {
+  opacity: 1;
+}
+
+#brush{
+  opacity: 0;
+  transition: all 3s ease-out;
+}
+
+#brush.fade-in {
+  opacity: 1;
+}
+
+#photo {
+  opacity: 0;
+  transition: all 2s ease-out;
+}
+
+#photo.fade-in {
+  opacity: 1;
+  transition: all 3s ease-out;
+  margin-left: 3%;
+  margin-top: 4%;
+}
+
+
+
+/*
 .nav {
   width: 100%;
   font-size: 1.2em;
@@ -137,7 +224,7 @@ li:first-child {
 .description{
   margin-top: 5em; 
 }
-
+*/
 
 
 /*seccion skills*/
@@ -159,12 +246,37 @@ li:first-child {
   margin-left: 15%;
 }
 
+i {
+  font-size: 8em;
+}
+
 .skillsLogo {
-  width: 6.5em;
+  width: 100%;
   margin-top: 25%;
   margin-bottom: 15%;
 }
 
+#skillOne {
+  opacity: 0;
+  transition: all 3s ease-out;
+}
+
+#skillOne.fade-in {
+  opacity: 1;
+  margin-top: 7%;
+}
+
+#skillTwo {
+  opacity: 0;
+  transition: all 3s ease-out;
+}
+
+#skillTwo.fade-in {
+  opacity: 1;
+  margin-top: 9%;
+}
+
+/*
 .node {
   width: 12em;
   margin-left: -25%;
@@ -173,71 +285,54 @@ li:first-child {
 .computador {
   margin-left: 295%;
 }
+*/
 
 /*work*/
 .work{
-  height: 100vh;
-}
-
-.grid {
-  padding: 20px 20px 100px 20px;
-  max-width: 1300px;
-  margin: 0 auto;
-  list-style: none;
-  text-align: center;
-}
-
-.grid li {
-  display: inline-block;
-  width: 440px;
-  margin: 0;
-  padding: 20px;
-  text-align: left;
-  position: relative;
-}
-
-.grid figure {
-  margin: 0;
-  position: relative;
-}
-
-.grid figure img {
-  max-width: 100%;
-  display: block;
-  position: relative;
-}
-
-.grid figcaption {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 20px;
-  background: #2c3f52;
-  color: #ed4e6e;
-}
-
-.grid figcaption h3 {
-  margin: 0;
-  padding: 0;
-  color: #fff;
-}
-
-.grid figcaption span:before {
-  content: 'by ';
-}
-
-.grid figcaption a {
-  text-align: center;
-  padding: 5px 10px;
-  border-radius: 2px;
-  display: inline-block;
-  background: #ed4e6e;
-  color: #fff;
+  height: 95vh;
 }
 
 .projectsOne {
   margin-bottom: 2%;
 }
+
+#titulo {
+  margin-top: -7%;
+}
+
+.thumbnailOne {
+  margin-top: -7%;
+}
+
+.thumbnail {
+  width: 100%;
+  margin-left: 10%;
+  text-align: center;
+  transition:all 0.8s ease;
+  margin: 3%;
+  opacity: 0;
+}
+
+.thumbnail.fade-in {
+  opacity:1;
+  margin-top: -4%;
+}
+
+.caption button {
+  font-size: 1vw;
+  background-color: #FFA254;
+  color: #ffff;
+}
+
+.caption button:hover {
+  background-color: #FFA240;
+}
+
+.caption button a {
+  text-decoration: none;
+  color: #fff;
+}
+
 
 /*contact*/
 #curve3{
@@ -254,13 +349,43 @@ li:first-child {
   font-size: 4em;
 }
 
-.contactLogos {
-  margin-left: 8%;
-  margin-top: 10%;
+.row.contactLogos {
+  margin-top: 15%;
+  margin-left: 15%;
 }
 
-.phone,.mail,.linkedin {
-  width: 6em;
+.github,.mail,.linkedin {
+  width: 100%;
+  margin-bottom: 5%;
+  opacity:0;
+}
+
+.mail {
+  transition:all 2s ease;
+}
+
+.linkedin {
+  transition:all 3s ease;
+}
+
+.github {
+  transition:all 4s ease;
+}
+
+.mail.fade-in {
+  opacity: 1;
+  margin-top: 1%;
+}
+
+.linkedin.fade-in {
+  opacity: 1;
+  margin-top: 1%;
+}
+
+
+.github.fade-in {
+  opacity: 1;
+  margin-top: 1%;
 }
 
 
@@ -280,20 +405,3 @@ footer p{
 
 
 
-@media screen and (min-width: 55em) {
-
-@media screen and (max-width: 55em) {
-  html,
-  body {
-    overflow-x: hidden;
-    width: 100vw;
-    height: auto;
-  }
-  
-  .content {
-    height: auto;
-    min-height: 0;
-    padding-bottom: 10em;
-    
-  }
-}
