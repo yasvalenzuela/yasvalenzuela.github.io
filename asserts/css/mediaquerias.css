@@ -82,20 +82,25 @@
     background-color: #FFA254;
   }
   .contactLogos {
-    margin-left: 35%;
+    margin-left: 5%;
   }
   .github,.mail,.linkedin {
     width: 5vw;
     height: 6em;
-  }
-
-  .mail.fade-in{
-    width: 3vw;
-    height: 4em;
+    margin-top: 15%;
+    margin-left: 5%;
   }
   .infoContact {
     font-size: 3vw;
   }
+    .imagen {
+    width: 2em;
+    height: 2em;
+  }
+  .mail {
+    margin-left: -20%;
+  }
+
 }/*termina primer media query*/
 
 @media screen and (min-device-width: 430px) and (max-device-width: 768px){
@@ -188,9 +193,14 @@
   }
   .github,.mail,.linkedin {
     width: 4em;
+    /*margin-left: 5%;*/
   }
   .infoContact {
     font-size: 1em;
   }
+  .imagen {
+    margin-left: 5%;
+  }
+
 }
 

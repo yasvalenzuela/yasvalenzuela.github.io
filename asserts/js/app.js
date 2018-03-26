@@ -168,7 +168,7 @@ $(document).ready(() => {
     })
     .setClassToggle('.workThree', 'fade-in')
     .addTo(controller);
-
+/*
   new ScrollMagic.Scene({
       triggerElement: '.mail'
     })
@@ -186,7 +186,7 @@ $(document).ready(() => {
     })
     .setClassToggle('.github', 'fade-in')
     .addTo(controller);
-
+*/
 });// fin de document ready
 
 
