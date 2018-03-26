@@ -8,7 +8,6 @@
     width: 100%;
   }
 
-
   .menu--circle{
     margin-top: -143%;
     position: fixed;
@@ -79,7 +78,7 @@
     margin-left: 35%;
   }
   .github,.mail,.linkedin {
-    width: 12em;
+    width: 3vw;
   }
   .infoContact {
     font-size: 4.5vw;

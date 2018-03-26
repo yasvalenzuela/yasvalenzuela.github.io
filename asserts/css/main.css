@@ -350,12 +350,12 @@ i {
 }
 
 .row.contactLogos {
-  margin-top: 15%;
-  margin-left: 15%;
+  margin-top: 0%;
+  margin-left: 35%;
 }
 
 .github,.mail,.linkedin {
-  width: 100%;
+  width: 15%;
   margin-bottom: 5%;
   opacity:0;
 }
@@ -386,6 +386,10 @@ i {
 .github.fade-in {
   opacity: 1;
   margin-top: 1%;
+}
+
+.infoContact {
+  font-size: 1.7vw;
 }
 
 
