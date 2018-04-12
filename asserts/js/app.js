@@ -26,12 +26,12 @@ $(document).ready(() => {
       <img src="asserts/img/camera.png" alt="" id="camera">
     </div>
     <div class="col-md-3 col-xs-3">
-      <img src="asserts/img/brush.png" alt="" id"brush">
+      <img src="asserts/img/brush.png" alt="" id="pincel">
     </div>
     `
     $('#about').append(like);
   let photo = `
-    <img src="asserts/img/image.png" alt="" id="photo">
+    <img src="asserts/img/Me.JPG" alt="" id="photo">
     `
     $('#photoMe').append(photo);
   let skillOne = `
@@ -122,9 +122,9 @@ $(document).ready(() => {
     .addTo(controller);
 
   new ScrollMagic.Scene({
-      triggerElement: '#brush'
+      triggerElement: '#pincel'
     })
-    .setClassToggle('#brush', 'fade-in')
+    .setClassToggle('#pincel', 'fade-in')
     .addTo(controller);
 
   new ScrollMagic.Scene({

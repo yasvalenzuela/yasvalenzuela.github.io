@@ -8,7 +8,7 @@
     width: 100%;
   }
   #profile {
-    height: 80vh;
+    height: 100vh;
   }
   .title{
     margin-top: -100%;
@@ -31,10 +31,12 @@
   }
   #photo {
     width: 45%;
+    border: 1px solid transparent;
+    border-radius: 5%;
   }
   #photo.fade-in {
     margin-left: 25%;
-    margin-top: -5%;
+    margin-top: 2%;
   }
   #skill {
     margin-top: 15%;
@@ -60,6 +62,11 @@
     margin-left: 0%;
     margin-bottom: 15%;
   }
+
+  #skillThree {
+    margin-left: -10%;
+  }
+
   .work {
     height: auto;
     margin-bottom: 45%;
@@ -103,7 +110,7 @@
 
 }/*termina primer media query*/
 
-@media screen and (min-device-width: 430px) and (max-device-width: 768px){
+@media screen and (min-device-width: 431px) and (max-device-width: 768px){
   section:first-child, .svg-animation,.scene{
     height: 100vh;
     width: 100%;
@@ -121,6 +128,9 @@
   }
   .hamburger {
     position: fixed;
+  }
+  #profile {
+    height: 100vh;
   }
   .title{
     margin-top: -100%;
@@ -142,12 +152,17 @@
   .description {
     font-size: 2vw;
   }
+  #laptop,#pincel,#camera,#headphone{
+    width: 4em;
+  }
   #photo {
     width: 35%;
+    border: 1px solid transparent;
+    border-radius: 5%;
   }
   #photo.fade-in {
-    margin-left: 25%;
-    margin-top: -5%;
+    margin-left: 30%;
+    margin-top: -3%;
   }
   #skill {
     margin-top: 5%;
@@ -167,7 +182,7 @@
     margin-bottom: 45%;
   }
   .rowWork {
-    margin-top: 10%;
+    margin-top: 15%;
   }
   .thumbnail {
     margin-left: 10%;
