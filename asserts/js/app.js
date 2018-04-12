@@ -31,7 +31,7 @@ $(document).ready(() => {
     `
     $('#about').append(like);
   let photo = `
-    <img src="asserts/img/Me.JPG" alt="" id="photo">
+    <img src="asserts/img/Me.jpg" alt="" id="photo">
     `
     $('#photoMe').append(photo);
   let skillOne = `
